@@ -1,0 +1,70 @@
+ /* Name: Sanchita Kanade 
+	 Instructor Name: Zak Ruvalcaba
+	 Class: CS648.01 Modern Web Development Frameworks Fall 2019
+	 File: widgets.css
+	 Assignment No.: 10
+*/
+
+.ui-tooltip, .arrow:after {
+    background: rgb(1, 1, 73);
+    border: 2px solid white;
+  }
+.ui-tooltip {
+    padding: 10px 20px;
+    color: white;
+    border-radius: 20px;
+    font: normal 14px inherit, Sans-Serif;
+    text-transform: initial;
+    box-shadow: 0 0 7px black;
+}
+  .arrow {
+    width: 70px;
+    height: 16px;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    margin-left: -35px;
+    bottom: -16px;
+  }
+  .arrow.top {
+    top: -16px;
+    bottom: auto;
+  }
+  .arrow.left {
+    left: 20%;
+  }
+  .arrow:after {
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: -20px;
+    width: 25px;
+    height: 25px;
+    box-shadow: 6px 5px 9px -9px black;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  .arrow.top:after {
+    bottom: -20px;
+    top: auto;
+  }
+
+/* styles for vertical tabbed menu on about us page*/
+  .ui-tabs-vertical { width: 55em; }
+  .ui-tabs-vertical .ui-tabs-nav { padding: .2em .1em .2em .2em; float: left; width: 12em; }
+  .ui-tabs-vertical .ui-tabs-nav li { clear: left; width: 100%; border-bottom-width: 1px !important; border-right-width: 0 !important; margin: 0 -1px .2em 0; }
+  .ui-tabs-vertical .ui-tabs-nav li a { display:block; }
+  .ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active { padding-bottom: 0; padding-right: .1em; border-right-width: 1px; }
+  .ui-tabs-vertical .ui-tabs-panel { padding: 1em; float: right; width: 40em;}
+
+
+
+#welcome h4:nth-of-type(3) {
+  margin-top: 1em;
+}
+
+#adv-custom-caption {
+  margin-bottom: 1em;
+}
+
